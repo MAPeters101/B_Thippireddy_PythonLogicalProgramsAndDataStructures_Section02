@@ -3,7 +3,7 @@ sum = 0
 
 for digit in number:
     value = int(digit)
-    if value <= 3:
+    if 1 < value <= 3:
         sum += value
     else:
         for i in range(2, value):
@@ -12,5 +12,3 @@ for digit in number:
             if i == value-1:
                 sum += value
 print(sum)
-
-
