@@ -1,0 +1,1 @@
+print(f"The number entered is a Duck Number: {'0' in input("Enter a number: ")}")
